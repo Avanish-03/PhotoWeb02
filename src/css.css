@@ -1,0 +1,15 @@
+/* hover effect on portfolio */
+#wrap {
+  height: auto;
+  width: auto;
+}
+
+#wrap img {
+  -webkit-transition: 400ms ease 100ms;
+  -moz-transition: 400ms ease 100ms;
+  transition: 400ms ease 100ms;
+}
+
+#wrap:hover img:not(:hover) {
+  filter: blur(3px);
+}
